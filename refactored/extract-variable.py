@@ -1,4 +1,4 @@
-def renderBanner(self):
+def render_banner(self):
     is_mac = self.platform.toUpperCase().indexOf("MAC") > -1
     is_ie = self.browser.toUpperCase().indexOf("IE") > -1
     is_initialized = self.wasInitialized()

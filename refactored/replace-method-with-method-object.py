@@ -1,5 +1,5 @@
 class Order:
-    def price(self):
+    def get_price(self):
         return Calculator(self).calculate()
 
 

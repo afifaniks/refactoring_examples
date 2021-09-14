@@ -1,4 +1,6 @@
-class Bird:
+from abc import ABCMeta
+
+class Bird(metaclass=ABCMeta):
     def get_speed(self):
         return self.get_base_speed()
 

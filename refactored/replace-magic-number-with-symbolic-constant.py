@@ -1,4 +1,4 @@
-G_CONSTANT = 9.81
+GRAVITATIONAL_FORCE = 9.81
 
 def potential_energy(mass, height):
-    return mass * height * G_CONSTANT
+    return mass * height * GRAVITATIONAL_FORCE

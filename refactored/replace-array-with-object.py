@@ -1,5 +1,5 @@
 class Team:
-    def __init__(self, name, members):
+    def __init__(self, name: str, members: int):
         self.name = name
         self.members = members 
 

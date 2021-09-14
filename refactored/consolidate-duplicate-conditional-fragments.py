@@ -1,8 +1,11 @@
-def is_special_deal():
+SPECIAL_OFF = 0.95
+NORMAL_OFF = 0.98
+
+def is_special_deal(price: float):
     return True
 
-if is_special_deal():
-    total = price * 0.95
+if is_special_deal(price):
+    total = price * SPECIAL_OFF
 else:
-    total = price * 0.98
+    total = price * NORMAL_OFF
 send()
